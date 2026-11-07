@@ -1,10 +1,22 @@
-# PIKA | 서브컬처 굿즈 중고거래 플랫폼
+# PIKA v2 | 개인 리뉴얼 프로젝트
+
+종료된 6인 팀 프로젝트 PIKA를 기반으로 진행하는 개인 리뉴얼 프로젝트입니다. 원본 Git 이력을 유지하며, 개인 리뉴얼 작업은 이 저장소의 후속 커밋으로 기록합니다.
+
+- **진행 상태**: 리뉴얼 시작 · 원본 코드 이관 완료
+- **원본 저장소**: [SoldeskFinalProject-Pika](https://github.com/geonhui-0125/SoldeskFinalProject-Pika)
+- **주요 방향**: JWT 인증 전환, 메시징 계층·저장 구조 재설계, Python AI 서비스 분리, 거래 검증·테스트 보강
+
+아래 기능·구조 설명은 이관한 원본 구현의 기록입니다. 리뉴얼 방향은 6번에 정리했으며, 구현이 진행되면 완료 범위와 검증 결과를 갱신합니다.
+
+---
+
+## 원본 프로젝트: PIKA
 
 > 상품 탐색부터 가격 비교, 판매자와의 대화, 거래 이력 확인까지 연결하는 웹 서비스
 
 PIKA는 **서브컬처 굿즈를 사고파는 사용자의 정보 탐색 부담을 줄이기 위해 만든 6인 팀 프로젝트**입니다. 상품·거래 데이터를 Oracle에 저장하고, Gemini API를 이용해 상품 시세와 판매자 리뷰를 해석하는 보조 기능을 제공합니다.
 
-- **프로젝트 상태**: 개발 종료 · 기존 구현을 바탕으로 리뉴얼 프로젝트 진행 예정
+- **원본 프로젝트 상태**: 개발·발표 종료
 - **팀**: Numlock
 - **구현 형태**: Spring Boot · Thymeleaf 기반 서버 렌더링 웹 애플리케이션
 - **주요 구현 영역**: 상품 검색·관리, 회원·마이페이지, 채팅·알림, 결제 연동, AI 시세 분석·리뷰 요약
@@ -146,7 +158,7 @@ Gradle은 별도로 설치할 필요가 없습니다. 최초 실행에는 의존
 프로젝트 디렉터리에서 실행합니다. 다음은 Oracle XE의 PDB에 연결하는 Linux/macOS 예시입니다. DB 계정 환경 변수는 실행 전에 설정하세요.
 
 ```bash
-cd SoldeskFinalProject-Pika/pika
+cd SoldeskFinalProject-Pika-v2/pika
 mkdir -p "$HOME/pika_uploads/products" "$HOME/pika_uploads/chat"
 
 export SPRING_DATASOURCE_URL='jdbc:oracle:thin:@//localhost:1521/XEPDB1'
