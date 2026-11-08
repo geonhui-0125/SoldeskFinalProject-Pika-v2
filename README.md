@@ -4,7 +4,8 @@
 
 - **진행 상태**: 리뉴얼 시작 · 원본 코드 이관 완료
 - **원본 저장소**: [SoldeskFinalProject-Pika](https://github.com/geonhui-0125/SoldeskFinalProject-Pika)
-- **주요 방향**: JWT 인증 전환, 메시징 계층·저장 구조 재설계, Python AI 서비스 분리, 거래 검증·테스트 보강
+- **주요 방향**: React MVVM 마이그레이션, JWT 인증 전환, Oracle 유지, MongoDB·Redis 기반 메시징, Python gRPC·Gemini AI 서비스 분리
+- **v2 설계**: [기술명세 초안](docs/technical-spec.md)
 
 아래 기능·구조 설명은 이관한 원본 구현의 기록입니다. 리뉴얼 방향은 6번에 정리했으며, 구현이 진행되면 완료 범위와 검증 결과를 갱신합니다.
 
