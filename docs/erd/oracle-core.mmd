@@ -1,0 +1,193 @@
+erDiagram
+    MEMBERS ||--o{ PRODUCTS : sells
+    CATEGORIES o|--o{ CATEGORIES : parent_of
+    CATEGORIES ||--o{ PRODUCTS : classifies
+    MEMBERS ||--o{ ASSETS : uploads
+    PRODUCTS ||--o{ PRODUCT_IMAGES : has
+    ASSETS ||--o| PRODUCT_IMAGES : attached_as
+    MEMBERS ||--o{ FAVORITES : keeps
+    PRODUCTS ||--o{ FAVORITES : receives
+    PRODUCTS ||--o{ ORDERS : ordered_in
+    MEMBERS ||--o{ ORDERS : buys
+    MEMBERS ||--o{ ORDERS : sells_to
+    PRODUCTS ||--o| PRODUCT_CLAIMS : allocated_by
+    ORDERS ||--o| PRODUCT_CLAIMS : claims
+    ORDERS ||--|| ORDER_DELIVERY_SNAPSHOTS : ships_to
+    ORDERS ||--o| SHIPMENTS : dispatched_as
+    MEMBERS ||--o{ SHIPMENTS : registers
+    ORDERS ||--o{ PAYMENT_ATTEMPTS : attempts
+    PAYMENT_ATTEMPTS ||--o{ REFUNDS : refunded_by
+    ORDERS ||--o{ ORDER_TRANSITIONS : records
+    ORDERS ||--o| REVIEWS : earns
+    MEMBERS ||--o{ NOTIFICATIONS : receives
+    OUTBOX_EVENTS ||--o{ OUTBOX_DELIVERIES : delivered_to
+
+    MEMBERS {
+        uuid id PK
+        string login_name UK
+        string email_normalized UK
+        string password_hash
+        string nickname
+        string role
+        string account_status
+        timestamp created_at
+        timestamp deleted_at
+    }
+    CATEGORIES {
+        uuid id PK
+        uuid parent_id FK
+        string slug UK
+        string name
+        int sort_order
+        boolean enabled
+    }
+    ASSETS {
+        uuid id PK
+        uuid owner_id FK
+        string storage_key UK
+        string purpose
+        string status
+        string mime_type
+        long size_bytes
+    }
+    PRODUCTS {
+        uuid id PK
+        uuid seller_id FK
+        uuid category_id FK
+        string title
+        text description
+        money price
+        string currency
+        string item_condition
+        string sale_status
+        string visibility
+        long version
+    }
+    PRODUCT_IMAGES {
+        uuid id PK
+        uuid product_id FK
+        uuid asset_id FK,UK
+        int sort_order
+    }
+    FAVORITES {
+        uuid member_id PK,FK
+        uuid product_id PK,FK
+        timestamp created_at
+    }
+    ORDERS {
+        uuid id PK
+        uuid product_id FK
+        uuid buyer_id FK
+        uuid seller_id FK
+        string client_request_key
+        string request_hash
+        string product_title_snapshot
+        money agreed_amount
+        string currency
+        string status
+        uuid accepted_payment_id FK
+        timestamp expires_at
+        timestamp seller_approved_at
+        timestamp confirmed_at
+        long version
+    }
+    ORDER_DELIVERY_SNAPSHOTS {
+        uuid order_id PK,FK
+        string recipient_name
+        string recipient_phone
+        string postal_code
+        string address_line1
+        string address_line2
+        string delivery_note
+        timestamp created_at
+    }
+    SHIPMENTS {
+        uuid id PK
+        uuid order_id FK,UK
+        string carrier_code
+        string tracking_number
+        uuid registered_by FK
+        timestamp dispatched_at
+        long version
+    }
+    PRODUCT_CLAIMS {
+        uuid product_id PK,FK
+        uuid order_id FK,UK
+        timestamp acquired_at
+    }
+    PAYMENT_ATTEMPTS {
+        uuid id PK
+        uuid order_id FK
+        string merchant_reference UK
+        string provider
+        string provider_transaction_key UK
+        money requested_amount
+        money verified_amount
+        string verified_currency
+        string status
+        timestamp verified_at
+        long version
+    }
+    REFUNDS {
+        uuid id PK
+        uuid payment_attempt_id FK
+        uuid requested_by FK
+        uuid processed_by FK
+        string purpose
+        string order_status_before
+        string request_key UK
+        string provider_refund_key UK
+        money amount
+        string status
+        string reason
+        timestamp completed_at
+    }
+    ORDER_TRANSITIONS {
+        uuid id PK
+        uuid order_id FK
+        uuid actor_id FK
+        string from_status
+        string to_status
+        long order_version
+        string reason_code
+        timestamp occurred_at
+    }
+    REVIEWS {
+        uuid id PK
+        uuid order_id FK,UK
+        int rating
+        text content
+        string visibility
+        timestamp deleted_at
+        long version
+    }
+    NOTIFICATIONS {
+        uuid id PK
+        uuid recipient_id FK
+        string source_event_key
+        string type
+        string title
+        string content
+        string target_type
+        string target_id
+        timestamp read_at
+        timestamp deleted_at
+    }
+    OUTBOX_EVENTS {
+        uuid id PK
+        string aggregate_type
+        string aggregate_id
+        long aggregate_version
+        string event_type
+        text payload
+        timestamp occurred_at
+    }
+    OUTBOX_DELIVERIES {
+        uuid event_id PK,FK
+        string consumer_name PK
+        string status
+        int attempts
+        timestamp next_attempt_at
+        timestamp lease_until
+        timestamp completed_at
+    }
