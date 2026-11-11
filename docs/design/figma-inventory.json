@@ -1,0 +1,1385 @@
+{
+  "recordedAt": "2026-11-11",
+  "fileName": "PIKA_v1",
+  "fileKey": null,
+  "scope": "Page/frame/component lookup index; not an editable Figma backup or proof of functional implementation.",
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "Page 1",
+      "flows": []
+    },
+    {
+      "id": "3:2",
+      "name": "00 References",
+      "flows": []
+    },
+    {
+      "id": "3:3",
+      "name": "01 User Flows",
+      "flows": []
+    },
+    {
+      "id": "3:4",
+      "name": "02 Wireframes",
+      "flows": []
+    },
+    {
+      "id": "12:1902",
+      "name": "03 V2 PC · 디자인 보일러플레이트",
+      "flows": []
+    },
+    {
+      "id": "6:258",
+      "name": "04 Legacy PIKA · PC",
+      "flows": []
+    },
+    {
+      "id": "6:792",
+      "name": "05 v2 PC · 화면 상태",
+      "flows": []
+    },
+    {
+      "id": "7:2",
+      "name": "06 V1 PC · 원본 화면",
+      "flows": []
+    },
+    {
+      "id": "7:35",
+      "name": "07 V1 PC · 레거시",
+      "flows": [
+        {
+          "nodeId": "12:2074",
+          "name": "PIKA V1 · 포트폴리오 흐름"
+        },
+        {
+          "nodeId": "12:2226",
+          "name": "PIKA V1 · 실제 화면 동선"
+        },
+        {
+          "nodeId": "7:41",
+          "name": "V1 PC · 비로그인"
+        },
+        {
+          "nodeId": "7:420",
+          "name": "V1 PC · 로그인"
+        }
+      ]
+    },
+    {
+      "id": "12:2",
+      "name": "08 V2 PC · 설계",
+      "flows": [
+        {
+          "nodeId": "12:3",
+          "name": "V2 PC · 비로그인"
+        },
+        {
+          "nodeId": "12:335",
+          "name": "V2 PC · 로그인"
+        },
+        {
+          "nodeId": "12:44",
+          "name": "V2 PC · 인증"
+        },
+        {
+          "nodeId": "12:445",
+          "name": "V2 PC · 마이페이지 / 회원정보"
+        },
+        {
+          "nodeId": "12:844",
+          "name": "V2 PC · 이메일 재설정 링크 진입"
+        },
+        {
+          "nodeId": "16:929",
+          "name": "인증 · 로그인 실패"
+        },
+        {
+          "nodeId": "16:931",
+          "name": "인증 · 가입 입력 오류"
+        },
+        {
+          "nodeId": "16:933",
+          "name": "인증 · 재설정 링크 만료"
+        },
+        {
+          "nodeId": "16:1846",
+          "name": "인증 · 비밀번호 확인 불일치"
+        },
+        {
+          "nodeId": "16:2254",
+          "name": "V2 관리자 · 운영 홈"
+        },
+        {
+          "nodeId": "12:659",
+          "name": "V2 관리자 · 회원 제한·해제"
+        },
+        {
+          "nodeId": "12:1481",
+          "name": "V2 관리자 · 신고 검토·숨김"
+        },
+        {
+          "nodeId": "16:2259",
+          "name": "V2 관리자 · 거래·환불"
+        },
+        {
+          "nodeId": "16:2267",
+          "name": "V2 관리자 · 실패 작업 복구"
+        },
+        {
+          "nodeId": "16:7151",
+          "name": "V2 리뷰 · 내 후기 수정·삭제"
+        },
+        {
+          "nodeId": "16:7229",
+          "name": "V2 리뷰 · 공개 후기"
+        },
+        {
+          "nodeId": "16:7372",
+          "name": "V2 리뷰 · 조회 실패 복구"
+        }
+      ]
+    }
+  ],
+  "designSections": [
+    {
+      "id": "12:2379",
+      "name": "인증 · 가입·로그인·비밀번호 재설정"
+    },
+    {
+      "id": "12:2380",
+      "name": "마이페이지 · 회원정보 및 계정 관리"
+    },
+    {
+      "id": "12:2654",
+      "name": "공통 UI · 팝업 프로토타입"
+    },
+    {
+      "id": "16:928",
+      "name": "인증 · 오류·처리·완료 상태"
+    },
+    {
+      "id": "16:2252",
+      "name": "관리자 · 운영 업무와 처리 상태"
+    },
+    {
+      "id": "16:6947",
+      "name": "리뷰 · 공개 상세와 작성자 관리"
+    }
+  ],
+  "designFrames": [
+    {
+      "id": "12:3",
+      "name": "홈 · 비로그인",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:57",
+      "name": "상품 등록",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:91",
+      "name": "결제 미리보기",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:115",
+      "name": "검색 결과",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:137",
+      "name": "검색 결과 없음",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:155",
+      "name": "상품 상세 · 비로그인",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:298",
+      "name": "홈 · AI 채팅 패널",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:335",
+      "name": "홈 · 로그인",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:378",
+      "name": "상품 상세 · 구매자",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:478",
+      "name": "구매 내역 · 빈 상태",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:501",
+      "name": "채팅 목록 · 빈 상태",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:520",
+      "name": "상품 채팅",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:550",
+      "name": "상품 등록 · 카테고리 선택",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:593",
+      "name": "판매 내역 · 빈 상태",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:616",
+      "name": "홈 · 알림 펼침",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:855",
+      "name": "홈 · 상품 목록 아래",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:896",
+      "name": "홈 · 인기 검색어",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:936",
+      "name": "상품 상세 · 상품 정보와 판매자",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:990",
+      "name": "상품 상세 · 판매자",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1024",
+      "name": "상품 수정",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1057",
+      "name": "상품 상세 · 판매 승인 대기",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1096",
+      "name": "상품 상세 · 구매 확정 대기",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1135",
+      "name": "상품 상세 · 판매 완료",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1168",
+      "name": "리뷰 작성",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1194",
+      "name": "구매 내역 · 거래 있음",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1254",
+      "name": "상품 등록 · 가격 입력",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1288",
+      "name": "상품 등록 · 하위 카테고리 선택",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1354",
+      "name": "홈 · 카테고리 펼침",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1394",
+      "name": "홈 · 하위 카테고리 펼침",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1441",
+      "name": "상품 상세 · 찜한 상태",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1587",
+      "name": "상품 상세 · 판매자 승인 대기",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1622",
+      "name": "상품 상세 · 판매자 거래 진행",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1657",
+      "name": "판매 내역 · 거래 있음",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1760",
+      "name": "상품 상세 · 리뷰 작성 완료",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1794",
+      "name": "채팅 목록 · 대화 있음",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1820",
+      "name": "홈 · 알림 있음",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1867",
+      "name": "상품 채팅 · 메시지 있음",
+      "parentId": "12:2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:44",
+      "name": "로그인",
+      "parentId": "12:2379",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:194",
+      "name": "회원가입",
+      "parentId": "12:2379",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:215",
+      "name": "비밀번호 찾기",
+      "parentId": "12:2379",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:844",
+      "name": "새 비밀번호 설정",
+      "parentId": "12:2379",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:2381",
+      "name": "인증 · 재설정 이메일 안내",
+      "parentId": "12:2379",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:445",
+      "name": "마이페이지",
+      "parentId": "12:2380",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1718",
+      "name": "마이페이지 · 내 상품이 있는 상태",
+      "parentId": "12:2380",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1230",
+      "name": "마이페이지 · 내 상품과 활동",
+      "parentId": "12:2380",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:586",
+      "name": "마이페이지 · 정산 계좌 관리",
+      "parentId": "12:2380",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1324",
+      "name": "정산 계좌 관리 · 등록 양식",
+      "parentId": "12:2380",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:419",
+      "name": "마이페이지 · 회원정보 수정",
+      "parentId": "12:2380",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:436",
+      "name": "마이페이지 · 회원 탈퇴 확인",
+      "parentId": "12:2380",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:2382",
+      "name": "마이페이지 · 비밀번호 변경",
+      "parentId": "12:2380",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:2655",
+      "name": "공통 오버레이 · 카테고리",
+      "parentId": "12:2654",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:2656",
+      "name": "공통 오버레이 · 알림",
+      "parentId": "12:2654",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:2657",
+      "name": "공통 오버레이 · AI 채팅",
+      "parentId": "12:2654",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:929",
+      "name": "로그인 · 인증 실패",
+      "parentId": "16:928",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:930",
+      "name": "로그인 · 처리 중",
+      "parentId": "16:928",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:931",
+      "name": "회원가입 · 입력 오류",
+      "parentId": "16:928",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:932",
+      "name": "회원가입 · 완료",
+      "parentId": "16:928",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:933",
+      "name": "비밀번호 재설정 · 링크 만료",
+      "parentId": "16:928",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:934",
+      "name": "비밀번호 재설정 · 완료",
+      "parentId": "16:928",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:1846",
+      "name": "새 비밀번호 설정 · 확인 불일치",
+      "parentId": "16:928",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:659",
+      "name": "관리자 · 회원 관리",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:707",
+      "name": "관리자 · 상품 관리",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1481",
+      "name": "관리자 · 신고 접수함",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1549",
+      "name": "관리자 · 상품 상세",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2254",
+      "name": "관리자 · 운영 홈",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2255",
+      "name": "관리자 · 회원 상세",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2256",
+      "name": "관리자 · 회원 상세 · 이용 제한 적용",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2257",
+      "name": "관리자 · 신고 검토",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2258",
+      "name": "관리자 · 상품 상세 · 관리자 숨김",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2259",
+      "name": "관리자 · 거래 목록",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2260",
+      "name": "관리자 · 거래 상세 · 구매 확정",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2261",
+      "name": "관리자 · 거래 상세 · 환불 결과 미확정",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2262",
+      "name": "관리자 · 거래 상세 · 환불 완료",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2263",
+      "name": "관리자 · 거래 상세 · 환불 실패",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2264",
+      "name": "관리자 · 결제 상태 대조",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2265",
+      "name": "관리자 · 관리자 처리 이력",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2266",
+      "name": "관리자 · 처리 이력 상세",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2267",
+      "name": "관리자 · 기술 운영 · 실패 작업",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2268",
+      "name": "관리자 · 실패 작업 상세",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2269",
+      "name": "관리자 · 작업 상세 · 재처리 완료",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2270",
+      "name": "관리자 · 회원 검색 · 결과 없음",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2271",
+      "name": "관리자 · 회원 목록 · 조회 실패",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2272",
+      "name": "관리자 · 신고 검토 · 상태 충돌",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2273",
+      "name": "관리자 · 접근 권한 없음",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:3700",
+      "name": "관리자 · 회원 이용 제한 확인",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:3701",
+      "name": "관리자 · 상품 숨김 확인",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:3702",
+      "name": "관리자 · 관리자 전액 환불 확인",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:3918",
+      "name": "관리자 · 신고 기각 확인",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:3919",
+      "name": "관리자 · 이용 제한 해제 확인",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:3920",
+      "name": "관리자 · 상품 공개 복구 확인",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:3921",
+      "name": "관리자 · 신고 검토 · 기각 완료",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:3966",
+      "name": "관리자 · 회원 상세 · 제한 해제",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:4011",
+      "name": "관리자 · 상품 상세 · 공개 복구",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:4056",
+      "name": "관리자 · 결제 상태 대조 · 확인 완료",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:4868",
+      "name": "관리자 · 상품 원문·사진 보기",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:4869",
+      "name": "관리자 · 회원 경고 안내",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:4870",
+      "name": "관리자 · 회원 상세 · 경고 안내 완료",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:5637",
+      "name": "관리자 · 회원 조회 중",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:5726",
+      "name": "관리자 · 거래 상세 · 발송",
+      "parentId": "16:2252",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:6903",
+      "name": "00 · 관리자 설계 안내",
+      "parentId": "16:2252",
+      "width": 4000,
+      "height": 366
+    },
+    {
+      "id": "16:6904",
+      "name": "00 · 예외 상태 확인",
+      "parentId": "16:2252",
+      "width": 3360,
+      "height": 366
+    },
+    {
+      "id": "12:972",
+      "name": "리뷰 상세 · 방문자",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7115",
+      "name": "리뷰 상세 · 다른 회원",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7151",
+      "name": "리뷰 상세 · 작성자",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7190",
+      "name": "리뷰 상세 · 수정 완료",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7229",
+      "name": "판매자 후기 목록",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7265",
+      "name": "판매자 후기 · 없음",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:293",
+      "name": "리뷰 상세 · 접근 불가",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7336",
+      "name": "리뷰 상세 · 조회 중",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7372",
+      "name": "리뷰 상세 · 조회 실패",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7408",
+      "name": "리뷰 삭제 완료",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7447",
+      "name": "리뷰 삭제 확인",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "12:1690",
+      "name": "리뷰 수정",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7495",
+      "name": "리뷰 수정 · 내용 오류",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7543",
+      "name": "리뷰 수정 · 저장 중",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7591",
+      "name": "리뷰 상세 · 삭제 실패",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7630",
+      "name": "마이페이지 · 리뷰 삭제 후",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7912",
+      "name": "판매자 후기 목록 · 작성자",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7951",
+      "name": "판매자 후기 목록 · 다른 회원",
+      "parentId": "16:6947",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:8733",
+      "name": "리뷰 · 화면과 동선 안내",
+      "parentId": "16:6947",
+      "width": 7480,
+      "height": 230
+    }
+  ],
+  "boilerplateComponents": [
+    {
+      "id": "12:2013",
+      "name": "PIKA V2/버튼/로그인",
+      "parentId": "12:1904",
+      "width": 160,
+      "height": 44
+    },
+    {
+      "id": "12:2014",
+      "name": "PIKA V2/버튼/상품결제",
+      "parentId": "12:1904",
+      "width": 160,
+      "height": 44
+    },
+    {
+      "id": "12:2015",
+      "name": "PIKA V2/버튼/상품등록",
+      "parentId": "12:1904",
+      "width": 160,
+      "height": 44
+    },
+    {
+      "id": "12:2016",
+      "name": "PIKA V2/버튼/채팅하기",
+      "parentId": "12:1904",
+      "width": 160,
+      "height": 44
+    },
+    {
+      "id": "12:2017",
+      "name": "PIKA V2/버튼/보조",
+      "parentId": "12:1904",
+      "width": 160,
+      "height": 44
+    },
+    {
+      "id": "12:2018",
+      "name": "PIKA V2/버튼/비활성",
+      "parentId": "12:1904",
+      "width": 160,
+      "height": 44
+    },
+    {
+      "id": "12:2019",
+      "name": "PIKA V2/입력란/기본",
+      "parentId": "12:1904",
+      "width": 290,
+      "height": 44
+    },
+    {
+      "id": "12:2020",
+      "name": "PIKA V2/입력란/오류",
+      "parentId": "12:1904",
+      "width": 290,
+      "height": 44
+    },
+    {
+      "id": "12:2021",
+      "name": "PIKA V2/입력란/검색",
+      "parentId": "12:1904",
+      "width": 420,
+      "height": 42
+    },
+    {
+      "id": "12:2022",
+      "name": "PIKA V2/거래 상태/판매 승인 대기",
+      "parentId": "12:1904",
+      "width": 126,
+      "height": 32
+    },
+    {
+      "id": "12:2023",
+      "name": "PIKA V2/거래 상태/거래 중",
+      "parentId": "12:1904",
+      "width": 112,
+      "height": 32
+    },
+    {
+      "id": "12:2024",
+      "name": "PIKA V2/거래 상태/판매 완료",
+      "parentId": "12:1904",
+      "width": 112,
+      "height": 32
+    },
+    {
+      "id": "12:2025",
+      "name": "PIKA V2/상품/상품 카드",
+      "parentId": "12:1904",
+      "width": 272,
+      "height": 342
+    },
+    {
+      "id": "12:2026",
+      "name": "PIKA V2/공통/빈 상태",
+      "parentId": "12:1904",
+      "width": 360,
+      "height": 158
+    },
+    {
+      "id": "12:2030",
+      "name": "PIKA V2/PC/공통 헤더",
+      "parentId": "12:1904",
+      "width": 1160,
+      "height": 150
+    },
+    {
+      "id": "12:2526",
+      "name": "PIKA V2/PC/공통 헤더 · 로그인",
+      "parentId": "12:1904",
+      "width": 1160,
+      "height": 150
+    },
+    {
+      "id": "12:2645",
+      "name": "PIKA V2/PC/공통 플로팅 UI",
+      "parentId": "12:1904",
+      "width": 84,
+      "height": 850
+    },
+    {
+      "id": "16:1903",
+      "name": "PIKA V2/Icon/Hamburger",
+      "parentId": "12:1904",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "16:1905",
+      "name": "PIKA V2/Icon/Search",
+      "parentId": "12:1904",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "16:86",
+      "name": "PIKA V2/PC/마이페이지 공통 셸",
+      "parentId": "12:1902",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:908",
+      "name": "PIKA V2/PC/인증 공통 셸",
+      "parentId": "12:1902",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2198",
+      "name": "PIKA V2/Overlay/카테고리",
+      "parentId": "16:2189",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2214",
+      "name": "PIKA V2/Overlay/알림",
+      "parentId": "16:2189",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2234",
+      "name": "PIKA V2/Overlay/AI 채팅",
+      "parentId": "16:2189",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2274",
+      "name": "PIKA V2/Admin/공통 셸",
+      "parentId": "16:2253",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:2316",
+      "name": "PIKA V2/Admin/표 헤더",
+      "parentId": "16:2253",
+      "width": 796,
+      "height": 44
+    },
+    {
+      "id": "16:2323",
+      "name": "PIKA V2/Admin/표 행",
+      "parentId": "16:2253",
+      "width": 796,
+      "height": 64
+    },
+    {
+      "id": "16:2330",
+      "name": "PIKA V2/Admin/필터 바",
+      "parentId": "16:2253",
+      "width": 796,
+      "height": 88
+    },
+    {
+      "id": "16:2338",
+      "name": "PIKA V2/Admin/상태 배지",
+      "parentId": "16:2253",
+      "width": 144,
+      "height": 32
+    },
+    {
+      "id": "16:2341",
+      "name": "PIKA V2/Admin/업무 요약",
+      "parentId": "16:2253",
+      "width": 240,
+      "height": 108
+    },
+    {
+      "id": "16:2345",
+      "name": "PIKA V2/Admin/상태 안내",
+      "parentId": "16:2253",
+      "width": 796,
+      "height": 76
+    },
+    {
+      "id": "16:2349",
+      "name": "PIKA V2/Admin/상태 이력",
+      "parentId": "16:2253",
+      "width": 796,
+      "height": 68
+    },
+    {
+      "id": "16:2354",
+      "name": "PIKA V2/버튼/위험 작업",
+      "parentId": "16:2253",
+      "width": 160,
+      "height": 44
+    },
+    {
+      "id": "16:2356",
+      "name": "PIKA V2/Admin/정보 요약",
+      "parentId": "16:2253",
+      "width": 796,
+      "height": 144
+    },
+    {
+      "id": "16:2366",
+      "name": "PIKA V2/Admin/조치 확인 모달",
+      "parentId": "16:2253",
+      "width": 600,
+      "height": 540
+    },
+    {
+      "id": "16:2380",
+      "name": "PIKA V2/Admin/목록 상태",
+      "parentId": "16:2253",
+      "width": 796,
+      "height": 260
+    },
+    {
+      "id": "16:4692",
+      "name": "PIKA V2/Admin/조치 확인 모달 · 일반",
+      "parentId": "16:2253",
+      "width": 600,
+      "height": 540
+    },
+    {
+      "id": "16:4809",
+      "name": "PIKA V2/Admin/상태 배지 · 확인 필요",
+      "parentId": "16:2253",
+      "width": 144,
+      "height": 32
+    },
+    {
+      "id": "16:4812",
+      "name": "PIKA V2/Admin/상태 배지 · 오류",
+      "parentId": "16:2253",
+      "width": 144,
+      "height": 32
+    },
+    {
+      "id": "16:4815",
+      "name": "PIKA V2/Admin/상태 배지 · 중립",
+      "parentId": "16:2253",
+      "width": 144,
+      "height": 32
+    },
+    {
+      "id": "16:4818",
+      "name": "PIKA V2/Admin/상태 안내 · 완료",
+      "parentId": "16:2253",
+      "width": 796,
+      "height": 76
+    },
+    {
+      "id": "16:4822",
+      "name": "PIKA V2/Admin/상태 안내 · 오류",
+      "parentId": "16:2253",
+      "width": 796,
+      "height": 76
+    },
+    {
+      "id": "16:4871",
+      "name": "PIKA V2/Admin/상품 원문 미리보기",
+      "parentId": "16:2253",
+      "width": 780,
+      "height": 640
+    },
+    {
+      "id": "16:5631",
+      "name": "PIKA V2/Admin/표 행 · 조회 중",
+      "parentId": "16:2253",
+      "width": 796,
+      "height": 64
+    },
+    {
+      "id": "16:6949",
+      "name": "PIKA V2/PC/서비스 공통 셸 · 로그인",
+      "parentId": "16:6948",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "16:7011",
+      "name": "PIKA V2/Icon/Star · 선택",
+      "parentId": "16:6948",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "16:7014",
+      "name": "PIKA V2/Icon/Star · 미선택",
+      "parentId": "16:6948",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "16:7017",
+      "name": "PIKA V2/Review/별점 표시",
+      "parentId": "16:6948",
+      "width": 270,
+      "height": 32
+    },
+    {
+      "id": "16:7034",
+      "name": "PIKA V2/Review/거래 상품 요약",
+      "parentId": "16:6948",
+      "width": 960,
+      "height": 136
+    },
+    {
+      "id": "16:7039",
+      "name": "PIKA V2/Review/리뷰 본문",
+      "parentId": "16:6948",
+      "width": 960,
+      "height": 300
+    },
+    {
+      "id": "16:7063",
+      "name": "PIKA V2/Review/본문 로딩",
+      "parentId": "16:6948",
+      "width": 960,
+      "height": 300
+    },
+    {
+      "id": "16:7070",
+      "name": "PIKA V2/Review/삭제 확인",
+      "parentId": "16:6948",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "id": "16:7907",
+      "name": "PIKA V2/Review/내 활동 후기 행",
+      "parentId": "16:6948",
+      "width": 796,
+      "height": 104
+    }
+  ]
+}

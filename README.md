@@ -2,11 +2,13 @@
 
 종료된 6인 팀 프로젝트 PIKA를 기반으로 진행하는 개인 리뉴얼 프로젝트입니다. 원본 Git 이력을 유지하며, 개인 리뉴얼 작업은 이 저장소의 후속 커밋으로 기록합니다.
 
-- **진행 상태**: 리뉴얼 시작 · 원본 코드 이관 완료
+- **진행 상태**: 기능·데이터·PC 화면 설계 중 · v2 신규 구현 전
 - **원본 저장소**: [SoldeskFinalProject-Pika](https://github.com/geonhui-0125/SoldeskFinalProject-Pika)
 - **주요 방향**: React MVVM 마이그레이션, JWT 인증 전환, Oracle 유지, MongoDB·Redis 기반 메시징, Python gRPC·Gemini AI 서비스 분리
 - **v2 설계**: [기능명세 초안](docs/functional-spec.md) · [원본 기능 대조](docs/functional-audit.md) · [기술명세 초안](docs/technical-spec.md)
 - **데이터 설계**: [Oracle ERD](docs/data-model.md) · [MongoDB 대화 모델](docs/messaging-data-model.md) · [거래 정책·상태 전이](docs/transaction-policy.md)
+- **화면·운영 설계**: [Figma 설계 기록](docs/design-record.md) · [디자인 잔여 작업](docs/design-completion-audit.md) · [관리자 조사](docs/admin-research.md)
+- **개발·검증 계획**: [CI/CD·시딩·k6](docs/delivery-and-test-plan.md) · [문서 안내와 기록 범위](docs/README.md)
 - **구현 방식**: 원본 코드는 레퍼런스로 보존하고 기능명세를 기준으로 v2를 새로 작성
 
 아래 기능·구조 설명은 이관한 원본 구현의 기록입니다. 리뉴얼 방향은 6번에 정리했으며, 구현이 진행되면 완료 범위와 검증 결과를 갱신합니다.
