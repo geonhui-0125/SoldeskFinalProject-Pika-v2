@@ -144,7 +144,7 @@ Gradle은 별도로 설치할 필요가 없습니다. 최초 실행에는 의존
 
 ### 애플리케이션 설정
 
-기본 설정은 [application.properties](pika/src/main/resources/application.properties)에서 읽습니다. 실제 비밀번호와 API 키는 커밋하지 않고 로컬 설정 또는 환경 변수로 제공합니다.
+기본 설정은 `pika/src/main/resources/application.properties`에서 읽습니다. 이 파일은 커밋하지 않으므로 [application.properties.example](pika/src/main/resources/application.properties.example)을 복사해 만듭니다. 실제 비밀번호와 API 키는 커밋하지 않고 로컬 설정 또는 환경 변수로 제공합니다.
 
 | 속성 | 설정 내용 |
 | --- | --- |

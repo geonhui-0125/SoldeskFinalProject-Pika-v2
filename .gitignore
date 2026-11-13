@@ -1,1 +1,4 @@
 addmock.sql
+
+# 로컬 설정 (시크릿 포함, 커밋 금지) — 템플릿은 application.properties.example
+pika/src/main/resources/application.properties
